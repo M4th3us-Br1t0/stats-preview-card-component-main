@@ -1,0 +1,58 @@
+@media(max-width: 425px){
+
+    body{
+        flex-wrap: wrap;
+        height: 956px;
+    }
+
+    .container{
+        background-color: hsl(244, 38%, 16%);
+        width: 325px;
+        height: 771px;
+        display: flex;
+        border-radius: 7px;
+        text-align: center;
+
+    }
+
+    .container .image{
+        border-radius: 7px 7px 0px 0;
+        width: 325px;
+        height: 239px;
+        background: linear-gradient(
+      0deg,
+      rgba(82, 0, 133, 0.6) 0%,
+      rgba(82, 0, 133, 0.6) 100%
+        ),
+        url(../images/image-header-desktop.jpg) center no-repeat;
+        background-size: cover;
+        position: absolute;
+    }
+
+    .container .card-info{
+        margin: 69px 26px 69px 22px;
+    }
+
+    .container .card-info .title{
+        font-size: 28px;
+        margin-top: 212px;
+        padding-bottom: 11px;
+    }
+
+    .container .card-info .info{
+        font-size: 16px;
+        margin: 0px;
+        line-height: 25px;
+    }
+
+    .container .card-info .numbers{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+    .container .card-info .numbers .section-info{
+        padding-top: 23px;
+    }
+}
